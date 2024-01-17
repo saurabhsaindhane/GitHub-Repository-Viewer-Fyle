@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Repositories Viewer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>GitHub Repositories Viewer by Saurabh Saindhane</h1>
+        <h2>by Saurabh Saindhane</h2>
+        <input type="text" id="usernameInput" placeholder="Enter GitHub Username">
+        <button id="searchButton">Search</button>
+    </header>
+    <section id="userProfile" style="display: none;">
+        <img id="profileImage" src="" alt="Profile Image">
+        <div id="userDetails">
+            <h2 id="username" class="detail-item"></h2>
+            <p id="bio" class="detail-item"></p>
+            <p id="location" class="detail-item"></p>
+            <a id="blog" href="" target="_blank" class="detail-item"></a>
+            <a id="githubLink" href="" target="_blank" class="detail-item">GitHub Profile</a>
+        </div>
+    </section>
+    
+    <main id="repoList">
+        
+    </main>
+    <footer>
+        <div id="pagination">
+            
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
